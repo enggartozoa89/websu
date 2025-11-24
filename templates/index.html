@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+{% include 'kontak/snippets/navbar.html' %}
+<img src="{% static banner%}" alt="" width="100%">
+{{judul}}
+</br>
+{{isi}}
+
+{% endblock body %}
